@@ -1,3 +1,4 @@
-.url
-.pptx
-.xlsx
+*.url
+*.pptx
+*.xlsx
+
