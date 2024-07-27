@@ -1,0 +1,24 @@
+<p>usingpipes works!</p>
+<hr>
+{{title | titlecase}}<br>
+<hr>
+{{title | uppercase}}<br>
+<hr>
+{{title | lowercase}}<br>
+{{mydate | date:'longDate'}}<br>
+{{mydate | date:'shortDate'}}<br>
+{{mydate | date:'dd=MM/YYYY - HH:mm'}}<br>
+
+{{grade | percent:'4.3-5'}}
+<!-- BEFORE POINT . AFTER POINT range -->
+ <br>
+ {{price | currency}}
+ <br>
+ <!-- {{price | currency:'EUR':false}}<br> -->
+ {{price | currency:'EUR':'code'}}<br>
+ {{price | currency:'EUR':'symbol'}}<br>
+ <!-- {{price | currency:'EUR':true:'3.2-3'}}<br> -->
+
+ <p>{{{"hi":"abdo"} | json}}</p>
+
+ {{myData | async}}

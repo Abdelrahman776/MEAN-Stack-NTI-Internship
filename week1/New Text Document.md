@@ -23,7 +23,7 @@ How internet was stolen doc
 Browser wars documentary
 
 Chatgpt for dev coursera
-Good website fot the requirements needed from it and its application
+Good website fit the requirements needed from it and its application
 
 { Project portifolio , Assignments and hw}
 
@@ -62,8 +62,8 @@ Promise,async await
 Oop js behind scene
 
 Alaa hassan
-Ali selim udemy
-Kareem noor school kimz codes
+
+kimz codes
 
 ---------------------------------------------
 
@@ -103,10 +103,10 @@ y.sort()
 y.tosorted()
 
 
-freepik, tarmeez
+freepik, 
 CatReloaded
 Yehia tech
-Mash
+
 Mahmoud metwally
 تخاريف مبرمج
 

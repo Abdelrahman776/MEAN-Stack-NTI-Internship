@@ -1,0 +1,22 @@
+<h1>kjfkfkjk</h1>
+<p>first works! gg</p> 
+<!-- interpolation binding for prop and methods  always connected-->
+ <!-- one way binding -->
+<h1>{{msg}}</h1>
+{{setmsg() }}
+
+<br>
+<img [src]="imageURL" [alt] = ""/>
+
+<!-- property binding for prop and methods -->
+<img [src]="image2URL"alt="akt"/>
+<!-- event binding  -->
+<button (click)="do()" >click me</button>
+<input [(ngModel)]="mydata">
+
+{{mydata}}
+<!-- directive -->
+<div [class.active]="isactive" *ngIf="isactive">its active</div>
+
+<!-- style bining -->
+<div [style.font-size]="fontSize">foooontssss</div>

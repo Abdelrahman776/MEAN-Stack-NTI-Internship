@@ -1,0 +1,11 @@
+h1{
+  /* color: red  !important; */
+  color: red ;
+  font-size: 32px;
+}
+img{
+  max-width: 300px;
+}
+.active{
+  background-color: goldenrod;
+}

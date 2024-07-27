@@ -1,0 +1,27 @@
+<!-- <ul *ngFor="let name of names;let i= index">
+  <li *ngIf="i!==0" >{{i+1}} - {{name}}</li>
+</ul>
+-->
+<!-- 
+<div>
+<div *ngFor="let name of names;let i= index">
+<ng-container *ngIf="i===0" > {{i+1}} - {{name}}</ng-container> 
+</div>
+</div> -->
+<!-- imaginary element-->
+
+
+
+<div *ngFor="let c of mycourse">
+<div [ngClass]="{Active:c.isActive, notActive:!c.isActive}">
+
+  
+  <img [src]="c.imgURL">
+  <div>{{c.id +1}} -  {{c.name}}  :</div>
+  <div>{{c.desc}}</div> 
+  <button (click)="delete(c.id)">Delete</button>
+  <button (click)="c.isActive=!c.isActive">{{c.isActive?"Not Active":"Active"}}</button>
+  <hr>  
+  
+
+</div>
